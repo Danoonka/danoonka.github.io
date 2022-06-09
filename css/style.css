@@ -1,0 +1,291 @@
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(15,5.829903978052126vw) ;
+    gap: 0.6858710562414266vw;
+}
+
+#logo{
+    justify-self: center;
+    width: 8.23045267489712vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#menu {
+    align-self: center;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    display: grid;
+    gap:2.7434842249657065vw;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    margin-top: 1.3717421124828533vw;
+    list-style: none;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.82vw;
+}
+
+#menu li{
+    text-align: center;
+}
+a{
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+
+.nav_btn{
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    grid-column-start: 14;
+    grid-column-end: 16;
+    width: 14.197530864197532vw;
+    height:  3.223593964334705vw;
+    border-radius: 0.6858710562414266vw;
+    background-color:rgba(1, 182, 213, 0.99);
+    border-color: rgba(1, 182, 213, 0.99) ;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.nav_btn a{
+    color: white;
+}
+
+.container{
+    margin-left: 2.880658436213992vw;
+    width: 60vw;
+    height: 46vw;
+    background-color: #C4C4C4AD;
+    z-index: 1;
+}
+
+h1{
+    margin-top: 0;
+    padding-top: 6.858710562414266vw;
+    margin-left: 6.858710562414266vw;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.544581618655693vw;
+    line-height: 9.190672153635116vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.05em;
+    text-transform: lowercase;
+}
+
+#first_section_header{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -2.7434842249657065vw;
+    padding-left: 7.750342935528121vw;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.7722908093278464vw;
+    line-height: 3.7722908093278464vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#first_section_description{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+    padding-left: 7.750342935528121vw;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    font-size: 1.646090534979424vw;
+    line-height: 2.05761316872428vw;
+    /* or 125% */
+
+    text-transform: capitalize;
+
+}
+
+.img_lay{
+    position: absolute;
+    width: 42.79835390946502vw;
+    height: 28.532235939643346vw;
+    left: 52.53772290809328vw;
+    top: 13.991769547325102vw;
+}
+
+#main_img{
+    width: 37.37997256515775vw;
+    height: 33.74485596707819vw;
+}
+
+#first_design_section, #second_design_section{
+    display: flex;
+    margin-left: 2.880658436213992vw;
+    margin-top:  7.613168724279835vw;
+}
+
+#section_second_img, #third_section_img {
+    width: 45.267489711934154vw;
+    height: 29.9039780521262vw;
+}
+
+#first_design_section_description{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.429355281207133vw;
+    line-height: 3.429355281207133vw;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8.984910836762689vw;
+}
+
+#first_design_section_description h2, #second_design_section_description h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.292181069958848vw;
+    line-height: 2.880658436213992vw;
+    color: #079FD0;
+}
+
+#first_design_section_description p, #second_design_section_description p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.646090534979424vw;
+    line-height: 2.4691358024691357vw;
+    color: #000000;
+}
+
+#first_design_section_description button, #second_design_section_description button, #additional_skills_section button {
+    font-style: normal;
+    font-weight: 500;
+    font-size:  1.2345679012345678vw;
+    line-height: 2.400548696844993vw;
+    text-transform: uppercase;
+    color: #079FD0;
+    background-color: white;
+    border: none;
+    margin-top: 7.064471879286694vw;
+}
+.learn_more::after{
+    content: "";
+    width: 0.7242798353909465vw;
+    height: 0.7270233196159122vw;
+    display: inline-block;
+    border: 0.13717421124828533vw solid #079FD0;
+    box-sizing: border-box;
+    transform: matrix(-0.69, 0.65, -0.8, -0.69, 0, 0);
+    border-bottom: none;
+    border-right: none;
+
+}
+
+#second_design_section_description{
+    margin-left: 11.11111111111111vw;
+}
+
+#third_section_img{
+    margin-left: 9.327846364883403vw;
+}
+
+#additional_skills_section{
+    margin-left: 2.880658436213992vw;
+    margin-top:  7.613168724279835vw;
+}
+
+#additional_skills_section h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.292181069958848vw;
+    line-height: 3.429355281207133vw;
+    text-align: center;
+    color: #079FD0;
+}
+
+#add_sk_container{
+    display: flex;
+}
+
+.add_sk_item{
+    margin-right: 5.0068587105624145vw;
+    width: 26.06310013717421vw;
+    height: 40.46639231824417vw;
+}
+.add_sk_item img{
+    width: 26.06310013717421vw;
+    height: 19.135802469135804vw;
+}
+
+.add_sk_item h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.05761316872428vw;
+    line-height: 2.4691358024691357vw;
+    color: #079FD0;
+}
+
+.add_sk_item p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3717421124828533vw;
+    line-height: 2.05761316872428vw;
+    color: #000000;
+}
+
+#additional_skills_section button{
+    margin-top: 2.05761316872428vw;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: [start] 17.83264746227709vw [end];
+    gap: 1.3717421124828533vw;
+    margin-top: 4.595336076817558vw;
+    z-index: -1;
+}
+
+footer div{
+    padding-top: 4.595336076817558vw;
+}
+
+footer div li{
+    list-style-type: none;
+    line-height: 2em;
+}
+#footer_logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 3.429355281207133vw;
+    width: 10.973936899862826vw;
+    height: 10.973936899862826vw;
+    grid-row-start: start;
+    grid-row-end:end ;
+}
+
+.background{
+    margin-top: -17.83264746227709vw;
+    width: 98.76543209876543vw;
+    height: 17.83264746227709vw;
+    background-color: #C4C4C433 ;
+    opacity: 60%;
+    z-index: 1;
+}
+
+#Rights{
+    margin-right: 0;
+}
+
+#Rights p{
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+}
